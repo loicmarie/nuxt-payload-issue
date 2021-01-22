@@ -1,13 +1,11 @@
 <template>
   <div class="container">
-    {{ test }}
   </div>
 </template>
 
 <script>
 export default {
-  async asyncData ({ payload, route, store }) {
-    console.log('home/payload', payload, route.params)
+  async asyncData ({ payload }) {
     return payload
   }
 }

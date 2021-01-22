@@ -4,8 +4,7 @@
 
 <script>
 export default {
-  async asyncData ({ payload, route, store }) {
-    console.log('todos/payload', payload, route.params)
+  async asyncData ({ payload }) {
     return payload
   }
 }

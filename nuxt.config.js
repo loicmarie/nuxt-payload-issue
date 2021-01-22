@@ -35,39 +35,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // 'nuxt-i18n'
   ],
-
-  i18n: {
-    baseUrl: 'https://open-chess.com',
-    // strategy: 'prefix',
-    defaultLocale: 'en',
-    vueI18n: {
-      fallbackLocale: 'en'
-    },
-    seo: false, // Because we use $nuxtI18nSeo instead
-    locales: [
-      {
-        code: 'fr',
-        iso: 'fr-FR'
-      },
-      {
-        code: 'en',
-        iso: 'en-US'
-      }
-    ],
-    // parsePages: false,
-    // pages: {
-    //   'index': {
-    //     fr: '/',
-    //     en: '/'
-    //   },
-    //   '/_id': {
-    //     fr: '/:id',
-    //     en: '/:id'
-    //   }
-    // }
-  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
